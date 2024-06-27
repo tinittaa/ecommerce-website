@@ -1,0 +1,110 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(233, 168, 27)
+}
+
+header {
+    background-color: #ffc107;
+}
+
+.navbar-brand img {
+    margin-right: 10px;
+}
+
+.nav-link {
+    color: #fff;
+}
+
+.nav-link:hover {
+    color: #000;
+}
+
+.carousel-inner img {
+    height: 550px;
+    object-fit: cover;
+}
+
+section h2 {
+    margin-bottom: 30px;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 0.875rem;
+    color: #6c757d;
+}
+
+.price {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #28a745;
+}
+
+.btn-outline-primary {
+    border-color: #28a745;
+    color: #28a745;
+}
+
+.btn-outline-primary:hover {
+    background-color: #28a745;
+    color: #fff;
+}
+
+footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px 0;
+}
+
+footer h5 {
+    font-size: 1.25rem;
+    margin-bottom: 15px;
+}
+
+footer p {
+    font-size: 0.875rem;
+}
+
+footer ul {
+    padding: 0;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .carousel-inner img {
+        height: 250px;
+    }
+    
+    .card-title {
+        font-size: 1rem;
+    }
+    
+    .card-text {
+        font-size: 0.75rem;
+    }
+    
+    .price {
+        font-size: 0.875rem;
+    }
+    
+    footer h5 {
+        font-size: 1rem;
+    }
+    
+    footer p {
+        font-size: 0.75rem;
+    }
+}
